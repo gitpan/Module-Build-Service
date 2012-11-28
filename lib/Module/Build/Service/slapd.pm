@@ -1,6 +1,6 @@
 package Module::Build::Service::slapd;
 {
-  $Module::Build::Service::slapd::VERSION = '0.90';
+  $Module::Build::Service::slapd::VERSION = '0.91';
 }
 # ABSTRACT: Service implementation for slapd
 
@@ -62,7 +62,7 @@ Module::Build::Service::slapd - Service implementation for slapd
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

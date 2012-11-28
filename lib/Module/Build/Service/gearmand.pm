@@ -1,6 +1,6 @@
 package Module::Build::Service::gearmand;
 {
-  $Module::Build::Service::gearmand::VERSION = '0.90';
+  $Module::Build::Service::gearmand::VERSION = '0.91';
 }
 # ABSTRACT: Service implementation for gearmand
 
@@ -37,7 +37,7 @@ Module::Build::Service::gearmand - Service implementation for gearmand
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

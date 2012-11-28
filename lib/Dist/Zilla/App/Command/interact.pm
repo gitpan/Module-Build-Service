@@ -1,6 +1,6 @@
 package Dist::Zilla::App::Command::interact;
 {
-  $Dist::Zilla::App::Command::interact::VERSION = '0.90';
+  $Dist::Zilla::App::Command::interact::VERSION = '0.91';
 }
 # ABSTRACT: Run the Module::Build::Service 'interact' command for your app
 
@@ -27,7 +27,7 @@ Dist::Zilla::App::Command::interact - Run the Module::Build::Service 'interact' 
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

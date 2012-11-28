@@ -1,6 +1,6 @@
 package Module::Build::Service::memcached;
 {
-  $Module::Build::Service::memcached::VERSION = '0.90';
+  $Module::Build::Service::memcached::VERSION = '0.91';
 }
 # ABSTRACT: Service implementation for memcached
 
@@ -39,7 +39,7 @@ Module::Build::Service::memcached - Service implementation for memcached
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

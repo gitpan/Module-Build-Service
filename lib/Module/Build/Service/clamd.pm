@@ -1,6 +1,6 @@
 package Module::Build::Service::clamd;
 {
-  $Module::Build::Service::clamd::VERSION = '0.90';
+  $Module::Build::Service::clamd::VERSION = '0.91';
 }
 # ABSTRACT: Service implementation for clamd
 
@@ -58,7 +58,7 @@ Module::Build::Service::clamd - Service implementation for clamd
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

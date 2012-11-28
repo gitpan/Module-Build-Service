@@ -1,6 +1,6 @@
 package Module::Build::Service::postgresql;
 {
-  $Module::Build::Service::postgresql::VERSION = '0.90';
+  $Module::Build::Service::postgresql::VERSION = '0.91';
 }
 # ABSTRACT: Service implementation for postgresql
 
@@ -108,7 +108,7 @@ Module::Build::Service::postgresql - Service implementation for postgresql
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 

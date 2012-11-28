@@ -1,6 +1,6 @@
 package Module::Build::Service;
 {
-  $Module::Build::Service::VERSION = '0.90';
+  $Module::Build::Service::VERSION = '0.91';
 }
 # ABSTRACT: Manage services necessary for automated or interactive testing
 
@@ -48,13 +48,18 @@ __PACKAGE__->add_property (mbs_socket_dir =>
 sub ACTION_test {
     my ($self, @args) = @_;
     $self->__wrapper ("SUPER::ACTION_test", @args);
-};
+}
 
 
 sub ACTION_interact {
     my ($self, @args) = @_;
     $self->__wrapper ("interact", @args);
-};
+}
+
+sub interact {
+    print STDERR "Press enter to continue";
+    my $junk = <STDIN>;
+}
 
 # __wrapper is the heart of the routines we expose.  It will start
 # required and/or recommended services before executing the named method
@@ -108,7 +113,7 @@ Module::Build::Service - Manage services necessary for automated or interactive 
 
 =head1 VERSION
 
-version 0.90
+version 0.91
 
 =head1 SYNOPSIS
 
